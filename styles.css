@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2563eb;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.navbar {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-right: 1px solid #e2e8f0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin-bottom: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #475569;
+    padding: 8px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #dbeafe;
+    color: #2563eb;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.main-content h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #2563eb;
+}
+
+.main-content h2 {
+    color: #2563eb;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.main-content h3 {
+    color: #2563eb;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.main-content p {
+    color: #475569;
+    line-height: 1.5;
+}
+
+.key-facts {
+    background-color: #f0f9ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.key-facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.key-facts ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.description ul li {
+    margin-bottom: 8px;
+    color: #475569;
+}
+
+.flag-image {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #2563eb;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .navbar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+    }
+}
